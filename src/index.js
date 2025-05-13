@@ -40,7 +40,7 @@ app.post("/sign-up", (req, res) => {
         });
 });
 
-app.post("/tweet", async (req, res) => {
+app.post("/tweets", async (req, res) => {
     const { username, tweet } = req.body;
 
     const schema = Joi.object({
