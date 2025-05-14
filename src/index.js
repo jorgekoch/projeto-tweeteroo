@@ -127,7 +127,7 @@ app.put("/tweets/:id", async (req, res) => {
 
 })
 
-app.delete('/tweet/:id', async (req, res) => {
+app.delete('/tweets/:id', async (req, res) => {
     const { id } = req.params;
 
     try {
